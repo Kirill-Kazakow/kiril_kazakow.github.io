@@ -1,0 +1,379 @@
+@font-face {
+    font-family:'Marvin';
+    src: url('Marvin.woff2') format('woff2'),
+        url('Marvin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+html{
+    background-color: rgb(9, 24, 46);
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;/*Запрет скрола горизонтально*/
+    
+    
+    /*Запрещаем выделять текст*/
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    /*Запрещаем выделять текст*/
+}
+body{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;/*Запрет скрола горизонтально*/
+	background-color: rgb(0, 0, 0);
+}
+/*header,Шапка,Меню*/
+nav{
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background: #344051;
+
+}
+
+.logo a{
+float: left; /*Выравнивание по левой стороне*/
+text-decoration: none;
+line-height: 80px;
+color: aliceblue;
+font-size: 25px;
+
+}
+
+.menu a{
+	text-decoration: none;
+	line-height: 60px;
+	float: left; /*Выравнивание по левой стороне*/
+	color: aliceblue;
+	font-size: 15px;
+	margin-left: 30px;
+	text-transform: uppercase; /* Текст большими буквами*/
+}
+
+.text_bt_color{
+	color: aliceblue;
+	background-color: rgba(87, 67, 105, 0.842);
+	font-size: 20px;
+}
+.colors{
+	text-align: center;
+	background-color: rgba(87, 67, 105, 0.842);
+}
+.colors a{
+color: aliceblue;
+font-size: 20px;
+}
+/*header,Шапка,Меню*/
+
+/*Привет я  Кирилл Казаков,main,title__container*/
+.main{
+    background: url(main_fons.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    box-shadow:#344051; 
+		height: 950px;  
+}
+.title__container {
+    color:rgb(255, 255, 255);
+	width: 100%;
+    margin-bottom: 300px;
+}
+.title__container input{
+font-size: 15px;
+border-radius: 60px;
+height: 40px;
+width: 200px;
+margin: 10px;
+text-align: center;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+text-transform: uppercase; /* Текст большими буквами*/
+}
+.title__container h1{
+	font-size: 45px;		
+}
+.title__container h4{
+	font-size: 25px;
+}
+ @media(max-width:450px){
+
+	.title__container{
+text-align: center;		
+	}
+	.title__container h1{
+		font-size: 45px;		
+	}
+	.title__container h4{
+		font-size: 25px;
+	}
+	.title__container input{
+		margin-top: 10px;
+	}
+ }
+/*Привет я  Кирилл Казаков,main,title__container*/
+
+/*Обо мне,logo_about_me*/
+.about_me{
+    background: url(main_fons.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    height: 950px;
+    margin-top: 10px;    
+}
+.logo_about_me h2{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 100px;
+    color: rgb(255, 255, 255);
+}
+.img_logo img{
+    height: 250px;
+    border-radius: 160px;
+   
+}
+.about_me p{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    width: 100%;
+    text-align: justify;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+    
+
+@media(max-width:991px){
+    .img_logo{
+        
+        text-align: center;
+    }
+    .about_me p{
+        display: none;
+    }
+}
+@media(max-width:665px){
+    .about_me{
+        height: 400px;
+    }
+    .about_me p{
+        font-size: 25px;
+}
+@media(max-width:990px){
+    .about_me{
+        height: 750px;
+    }   
+}
+}
+.about_me input{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+    border-radius: 60px;
+    height: 40px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+
+@media(max-width:838px){
+    .about_me{
+        height: 820px;
+    }
+}
+
+@media(max-width:580px){
+    .about_me{
+        height: 950px;
+       
+    }
+}
+/*Обо мне,logo_about_me*/
+
+/*Подвал,logo_my_contact*/
+footer{
+    width: 100%;
+    height: 301px;
+    background: #041a3ac9;
+    margin-top: 10px;
+}
+footer p {
+    color:aliceblue;
+    font-size: 20px;
+    text-align:center;
+    padding-top: 32px;
+    }
+    footer h2{
+        text-align: center;
+        font-size: 28px;
+        padding-top: 15px;
+        color: aliceblue;        
+    }
+    footer img{
+        height: 160px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+    }
+
+@media(max-width:991px){
+    footer img{
+        height: 120px;
+    }
+    footer{
+        height: 400px;
+    }
+}
+@media(max-width:575px){
+    footer {
+        height: 700px;
+    }
+}
+
+
+/*Подвал,logo_my_contact*/
+
+
+
+/*boxsing*/
+.boxsing{
+    background: url(main_fons.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    height: 800px;
+    padding-top: 60px;
+    margin-top: 10px;
+}
+.logo_box h2{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);   
+}
+.boxsing p{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+/*boxsing*/
+
+/*School*/
+.School{
+    background: url(main_fons.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    height: 1000px;
+    padding-top: 60px;
+    margin-top: 10px;
+}
+.logo_box h2{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);   
+}
+.School p{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+/*School*/
+
+/*university*/    
+.university{
+        background: url(main_fons.jpg);
+        background-size: cover;
+        border-radius: 50px;
+        height: 1050px;
+        padding-top: 60px;
+        margin-top: 10px;
+    }
+    .logo_box h2{
+        text-align: center;
+        font-size: 45px;
+        padding-top: 15px;
+        color: rgb(255, 255, 255);   
+    }
+    .university p{
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+    }
+/*university*/
+
+
+
+
+
+
+
+
+
+/*army*/    
+.army{
+    background: url(main_fons.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    height: 1050px;
+    padding-top: 60px;
+    margin-top: 10px;
+}
+.logo_box h2{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);   
+}
+.army p{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+/*army*/
+
+
+
+/*arrival*/    
+.arrival{
+    background: url(main_fons.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    height: 850px;
+    padding-top: 60px;
+    margin-top: 10px;
+}
+.logo_box h2{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);   
+}
+.arrival p{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+/*arrival*/
+
+
+
+
+/*now*/    
+.now{
+    background: url(main_fons.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    height: 850px;
+    padding-top: 60px;
+    margin-top: 10px;
+}
+.logo_box h2{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);   
+}
+.now p{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+/*now*/

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Это моя первая страница...">
+    <meta name="author" content="********"><!--Говорит об разработчике-->
+    <meta name="robots" content="index"><!--Index даёт право найти в интернете-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Отображение сайта на телефоне-->
+
+		<link rel="stylesheet" href="reset.css"> <!--Сброс стандартов стилей-->
+		<link rel="stylesheet" href="bootstrap.min.css"> <!--bootstrap-->
+    <link rel="stylesheet" href="style.css"> <!--Стили сайта-->
+	<link rel="stylesheet" href="style_slaider_Childhood.css"> <!--Стили сайта-->
+
+    <title> Кирилл Казаков</title>
+</head>
+<body><!-- Тело -->
+<header><!-- Шапка -->
+    <nav><!-- Меню -->
+			<div class="container">
+				<div class="row"><!-- больше 1200 xl меньше lg-->
+					<div class="col-xxl-4 col-xl-4 col-lg-3 col-9"><div class="logo"><a href="/Main.html"> Кирилл Казаков</a></div></div>
+					<div class="col-xxl-6 col-xl-8 col-lg-8 d-none d-lg-block"><div class="menu">
+            <ul>
+            	<li><a href="autobiography.html">Детство</a></li>
+				<li><a href="School.html">Школа</a></li>
+				<li><a href="university.html">Универ</a></li>
+				<li><a href="army.html">Армия</a></li>
+				<li><a href="arrival.html">Прибытие</a></li>
+				<li><a href="now.html">Настоящее время</a></li>
+            </ul>
+        </div>
+			</div>
+			<div class="col-3 d-flex d-lg-none flex-column justify-content-center align-items-end">
+				<div class="dropdown">
+					<a class="btn btn-outline-secondary dropdown-toggle text_bt_color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  <h>Меню</h>
+					</a>				  
+					<ul class="dropdown-menu colors">
+						<li><a class="dropdown-item" href="Main.html">На главную</a></li>
+						<li><a class="dropdown-item" href="School.html">Школа</a></li>
+						<li><a class="dropdown-item" href="university.html">Универ</a></li>
+						<li><a class="dropdown-item" href="army.html">Армия</a></li>
+						<li><a class="dropdown-item" href="arrival.html">Прибытие</a></li>
+						<li><a class="dropdown-item" href="now.html">Настоящее</a></li>
+				  </div>
+			</div>
+
+			</div>
+				</div>
+			</div>
+			
+    </nav><!-- Меню -->
+</header><!-- Шапка -->
+<!--Кейсы Автобиография-->
+<a name="university"></a><!--Ссылка-->
+<section class="university">
+	<div class="container"><div class="row"><div class="col">
+		<div class="logo_box">
+			<h2>Универ</h2>
+			<p>После получения аттестата я решила, что хочу связать свою жизнь со сферой IT и в связи с чем подал документы в Зареченский Технологический Институт (сокращённо ЗТИ), который является филиалом ПензГТУ на специальность информационные сети.</p>
+			<p>Четыре года учёбы пролетели очень быстро. Не успели глазом моргнуть как всем исполнилось 18 и вот уже сдача диплома. Защитив дипломный проект на отлично, нам назначили дату, когда нам будут вручать дипломы и начнётся взрослая жизнь.</p>
+			<div class="claider">
+				<div id="slider">
+					<input type="radio" name="slider" id="slide1" checked>
+					<input type="radio" name="slider" id="slide2">
+					<div id="slides">
+					   <div id="overflow">
+						  <div class="inner">
+							 <div class="slide slide_1">
+								<div class="slide-content">
+									<img src="university2.jpg" alt="Фото">
+								</div>
+							 </div>
+
+							 
+							 
+						  </div>
+					   </div>
+					</div>
+					<div id="controls">
+					   <label for="slide1"></label>
+
+			
+					</div>
+					<div id="bullets">
+					   <label for="slide1"></label>
+
+					   
+					</div>
+				 </div>
+			</div>
+<!--Кейсы Автобиография-->
+
+
+		</div>
+	</div>
+	</div>
+	</section>
+
+
+<!--Скрипты для кнопки меню-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+<script src="my_codeJS.js"></script>
+<!--Скрипты для кнопки меню-->
+</body><!-- Тело -->
+</html>
