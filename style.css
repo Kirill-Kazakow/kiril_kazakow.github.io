@@ -258,6 +258,18 @@ footer p {
     color: rgb(255, 255, 255);
     font-size: 35px;
 }
+@media(max-width:838px){
+    .boxsing{
+        height: 820px;
+    }
+}
+
+@media(max-width:580px){
+    .boxsing{
+        height: 1200px;
+       
+    }
+}
 /*boxsing*/
 
 /*School*/
@@ -279,6 +291,18 @@ footer p {
     color: rgb(255, 255, 255);
     font-size: 35px;
 }
+@media(max-width:838px){
+    .School{
+        height: 820px;
+    }
+}
+
+@media(max-width:580px){
+    .School{
+        height: 1900px;
+       
+    }
+}
 /*School*/
 
 /*university*/    
@@ -299,6 +323,18 @@ footer p {
     .university p{
         color: rgb(255, 255, 255);
         font-size: 35px;
+    }
+    @media(max-width:838px){
+        .university{
+            height: 820px;
+        }
+    }
+    
+    @media(max-width:580px){
+        .university{
+            height: 1900px;
+           
+        }
     }
 /*university*/
 
@@ -329,6 +365,18 @@ footer p {
     color: rgb(255, 255, 255);
     font-size: 35px;
 }
+@media(max-width:838px){
+    .army{
+        height: 820px;
+    }
+}
+
+@media(max-width:580px){
+    .army{
+        height: 1600px;
+       
+    }
+}
 /*army*/
 
 
@@ -351,6 +399,18 @@ footer p {
 .arrival p{
     color: rgb(255, 255, 255);
     font-size: 35px;
+}
+@media(max-width:838px){
+    .arrival{
+        height: 820px;
+    }
+}
+
+@media(max-width:580px){
+    .arrival{
+        height: 1200px;
+       
+    }
 }
 /*arrival*/
 
@@ -375,5 +435,17 @@ footer p {
 .now p{
     color: rgb(255, 255, 255);
     font-size: 35px;
+}
+@media(max-width:838px){
+    .now{
+        height: 820px;
+    }
+}
+
+@media(max-width:580px){
+    .now{
+        height: 1000px;
+       
+    }
 }
 /*now*/
